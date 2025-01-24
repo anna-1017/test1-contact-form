@@ -1,0 +1,123 @@
+.header {
+    background: white;
+    text-align: center;
+    border-bottom: solid 1px#8B7969;
+
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+
+}
+
+.header__logo {
+    color: #8B7969;
+    text-decoration: none;
+    font-size: 36px;
+    /* Font Inika*/
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ↑あとでcommon.cssへ移す*/
+
+
+ /*コンテンツ全体 */
+.confirm__content {
+    max-width: 972px;/*figma参照 */
+    height: 606px;
+    margin: 0 auto;/*全体を中央へ */
+    background-color: #fff;
+    padding: 20px 30px;/*コンテンツまわりの余白 */
+    
+}
+
+/* 「confirm」*/
+.confirm__heading{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #8B7969;
+    font-family: "Inika", serif;
+}
+
+/* テーブル */
+.confirm-table__inner {
+    width: 100%;
+    border-collapse: collapse;/*テーブルのセルのボーダーを重ねて一体化 */
+    
+
+}
+/*各行の下の線のみ付ける */
+.confirm-table__row {
+    border-bottom: 1px solid #BAA899;
+    border-right:1px solid #BAA899;/*右側だけにも線を足したい */
+}
+
+/*一番上に線を足したいから */
+.confirm-table__row:first-child{
+    border-top: 1px solid #BAA899;
+}
+
+/*一番下に線を足したいから */
+.confirm-table__row:last-child{
+    border-bottom: 1px solid #BAA899;
+}
+
+/*各行の見出し「お名前」等 */
+.confirm-table__header {
+    width: 30%; /*confirm-table__innerの30% */
+    background-color: #BAA899;
+    padding: 10px; /*見出しの枠内の内側の余白 */
+    
+    color: #FFFFFF;
+    text-align: left; /*文字を左に寄せて */
+    padding-left: 30px; /*左に少し余白を入れる */
+}
+
+/*全ての入力項目に対して */
+.confirm-table__text input,
+.confirm-table__textarea input {
+    width: 90%;
+    border: none;/*セルの線を消す */
+    padding: 10px;/*枠内の内側の余白 */
+    color: #4f4f4f;
+    font-size: 14px;
+    outline: none;
+}
+
+
+
+/* ボタン 2つをまとめる*/
+.form-button{
+    margin-top: 20px;
+    display: flex;/*子要素の2つのボタンを横並びに */
+    justify-content: center;
+    gap: 20px; /*ボタン間のスペース */
+    
+}
+
+.form__button-submit{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #82756A;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+
+.form__button-fix {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #8B7969;
+    text-decoration: underline;
+    border: none;
+}
