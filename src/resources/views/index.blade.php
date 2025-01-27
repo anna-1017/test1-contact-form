@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
-</head> <!--共通部分はあとでLayoutsへ移動 -->
+</head>
 <body>
   <header class="header">
     <div class="header__inner">
@@ -19,7 +19,7 @@
      </a>
     </div>
   </header>
-
+ <!--共通部分はあとでLayoutsへ移動 -->
  <main>
     <div class="contact-form__content">
       <div class="contact-form__heading">

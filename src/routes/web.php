@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Test1ContactController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +18,4 @@ use App\Http\Controllers\Test1ContactController;
 Route::get('/', [Test1ContactController::class, 'index']);
 Route::post('/confirm',[Test1ContactController::class, 'confirm']);
 Route::post('/thanks', [Test1ContactController::class, 'store']);
+Route::get('/login', [AdminController::class, 'login']);
