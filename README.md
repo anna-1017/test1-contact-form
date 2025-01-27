@@ -2,7 +2,7 @@
 管理者用の、登録・ログイン・認証機能を備えた、顧客向けのお問い合わせフォームです。
 
 ## 環境構築
-- リポジトリURL：https://git@github.com:anna-1017/test1-contact-form.git
+- リポジトリURL：[https://git@github.com:anna-1017/test1-contact-form.git](https://github.com/anna-1017/test1-contact-form.git)
 - Dockerの起動
 
   docker-compose up -d --build
